@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KV2FilterModelStoreContainer" CdmEntityContainer="KV2FilterEntities">
+    <EntitySetMapping Name="Chinhs">
+      <EntityTypeMapping TypeName="KV2FilterModel.Chinh">
+        <MappingFragment StoreEntitySet="Chinh">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="Tanso" ColumnName="Tanso" />
+          <ScalarProperty Name="PTLienlac" ColumnName="PTLienlac" />
+          <ScalarProperty Name="Hohieu" ColumnName="Hohieu" />
+          <ScalarProperty Name="Noidung" ColumnName="Noidung" />
+          <ScalarProperty Name="Huongdo" ColumnName="Huongdo" />
+          <ScalarProperty Name="Mangdai" ColumnName="Mangdai" />
+          <ScalarProperty Name="Giong" ColumnName="Giong" />
+          <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+          <ScalarProperty Name="Diaban" ColumnName="Diaban" />
+          <ScalarProperty Name="HohieuDecimal" ColumnName="HohieuDecimal" />
+          <ScalarProperty Name="PhienId" ColumnName="PhienId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dois">
+      <EntityTypeMapping TypeName="KV2FilterModel.Doi">
+        <MappingFragment StoreEntitySet="Doi">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Hohieu" ColumnName="Hohieu" />
+          <ScalarProperty Name="Huongdo" ColumnName="Huongdo" />
+          <ScalarProperty Name="Mangdai" ColumnName="Mangdai" />
+          <ScalarProperty Name="Giong" ColumnName="Giong" />
+          <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+          <ScalarProperty Name="Diaban" ColumnName="Diaban" />
+          <ScalarProperty Name="PhienId" ColumnName="PhienId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="KV2FilterModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phiens">
+      <EntityTypeMapping TypeName="KV2FilterModel.Phien">
+        <MappingFragment StoreEntitySet="Phien">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

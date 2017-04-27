@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KV2FilterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Chinh">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ngay" Type="datetime" Nullable="false" />
+    <Property Name="Tanso" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="PTLienlac" Type="nvarchar" MaxLength="50" />
+    <Property Name="Hohieu" Type="nvarchar" MaxLength="50" />
+    <Property Name="Noidung" Type="nvarchar(max)" />
+    <Property Name="Huongdo" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Mangdai" Type="nvarchar" MaxLength="50" />
+    <Property Name="Giong" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ghichu" Type="nvarchar(max)" />
+    <Property Name="Diaban" Type="nvarchar" MaxLength="50" />
+    <Property Name="HohieuDecimal" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="PhienId" Type="int" />
+  </EntityType>
+  <EntityType Name="Doi">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Hohieu" Type="nvarchar" MaxLength="50" />
+    <Property Name="Huongdo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mangdai" Type="nvarchar" MaxLength="50" />
+    <Property Name="Giong" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ghichu" Type="nvarchar(max)" />
+    <Property Name="Diaban" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhienId" Type="int" />
+  </EntityType>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="100" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Phien">
+    <Key>
+      <PropertyRef Name="Name" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="CreateUser" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="KV2FilterModelStoreContainer">
+    <EntitySet Name="Chinh" EntityType="Self.Chinh" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Doi" EntityType="Self.Doi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Login" EntityType="Self.Login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Phien" EntityType="Self.Phien" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

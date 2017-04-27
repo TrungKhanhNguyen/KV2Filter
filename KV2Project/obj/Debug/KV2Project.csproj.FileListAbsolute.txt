@@ -1,8 +1,13 @@
+E:\Work\Private\KV2Project\KV2Project\bin\Debug\KV2Project.exe.config
 E:\Work\Private\KV2Project\KV2Project\bin\Debug\KV2Project.exe
 E:\Work\Private\KV2Project\KV2Project\bin\Debug\KV2Project.pdb
-E:\Work\Private\KV2Project\KV2Project\obj\Debug\KV2Project.csprojResolveAssemblyReference.cache
+E:\Work\Private\KV2Project\KV2Project\bin\Debug\EntityFramework.dll
+E:\Work\Private\KV2Project\KV2Project\bin\Debug\EntityFramework.SqlServer.dll
+E:\Work\Private\KV2Project\KV2Project\bin\Debug\EntityFramework.xml
+E:\Work\Private\KV2Project\KV2Project\bin\Debug\EntityFramework.SqlServer.xml
 E:\Work\Private\KV2Project\KV2Project\obj\Debug\KV2Project.Form1.resources
 E:\Work\Private\KV2Project\KV2Project\obj\Debug\KV2Project.Properties.Resources.resources
 E:\Work\Private\KV2Project\KV2Project\obj\Debug\KV2Project.csproj.GenerateResource.Cache
 E:\Work\Private\KV2Project\KV2Project\obj\Debug\KV2Project.exe
 E:\Work\Private\KV2Project\KV2Project\obj\Debug\KV2Project.pdb
+E:\Work\Private\KV2Project\KV2Project\obj\Debug\KV2Project.csprojResolveAssemblyReference.cache
